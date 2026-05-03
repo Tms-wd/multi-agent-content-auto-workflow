@@ -1,5 +1,6 @@
-2025-12-01 10:20: 启动Planner Agent
-2025-12-01 10:21: 调用大模型API完成任务拆解
-2025-12-01 10:22: Executor Agent 生成内容完成
-2025-12-01 10:23: Reviewer Agent 审核校验通过
-2025-12-01 10:25: 工作流闭环执行完毕
+2026-05-03 15:30:01,123 - root - INFO - ===== 多Agent工作流启动 =====
+2026-05-03 15:30:01,124 - root - INFO - Planner Agent 收到需求: 一篇关于AI多Agent应用的技术博客
+2026-05-03 15:30:01,125 - root - INFO - Executor Agent 开始生成内容: 一篇关于AI多Agent应用的技术博客
+2026-05-03 15:30:05,456 - root - INFO - Reviewer Agent 开始审核内容
+2026-05-03 15:30:06,789 - root - INFO - 工作流执行完毕，结果：{'passed': True, 'revised_content': '生成的关于「一篇关于AI多Agent应用的技术博客」的初稿内容'}
+2026-05-03 15:30:06,790 - root - INFO - ===== 多Agent工作流结束 =====
